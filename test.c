@@ -10,7 +10,7 @@ void tui_json_read_test(void)
 	int js_num = 0, i, ret;
 	FILE *f;
 
-	f = fopen("test.json", "rb");
+	f = fopen("F:\\test.json", "rb");
 	if (NULL == f)
 		return;
 
